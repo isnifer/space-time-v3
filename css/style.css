@@ -1,0 +1,372 @@
+@font-face {
+  font-family: "a_CityNova";
+  src: url("fonts/citynova/citynova.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Grunge";
+  src: url("fonts/grunge/grunge.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "a_Huxley";
+  src: url("fonts/huxley/huxley.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "a_Huxley";
+  src: url("fonts/huxley/huxley-bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html, body {
+  height: 100%;
+  font-size: 100%;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+body {
+  background: url(../img/blog-top-bg.png) repeat-x 0 0, url(../img/blog-top-bg.png) repeat-x bottom, url(../img/blog-bg-pattern.png) repeat 0 0;
+  min-width: 640px;
+}
+
+#container {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  min-height: 100%;
+  background: transparent;
+  max-width: 1200px;
+}
+
+#main {
+  width: 100%;
+}
+#main > article#index-page {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #343434;
+}
+#main > article#index-page > div.inner {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  position: relative;
+  padding-bottom: 50px;
+  position: relative;
+}
+#main > article#index-page > div.inner:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#main > article#index-page > div.inner > header.blog-header {
+  font-size: 3.75em;
+  margin: 0 25px 0 0;
+  padding: 10px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: #383838;
+  font-family: "a_CityNova";
+}
+#main > article#index-page > div.inner > section.posts {
+  width: 73.33333%;
+  float: left;
+  margin: 0 3.5% 0 0;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item {
+  display: block;
+  width: 100%;
+  margin-top: 45px;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb {
+  width: 232px;
+  height: 229px;
+  margin: 0 4px 20px 0;
+  background: url(../img/portfolio-item-shadow-bg.png) no-repeat 0 0;
+  position: relative;
+  float: left;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb > div.white-wrapper {
+  width: 204px;
+  height: 212px;
+  background: #f7efef;
+  margin: 6px 0 0 14px;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb > div.white-wrapper > div.item-preview {
+  width: 194px;
+  height: 148px;
+  position: relative;
+  top: 5px;
+  left: 5px;
+  background: #2f2f2f;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb > div.portfolio-icon {
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  top: 125px;
+  left: 84px;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb > div.portfolio-icon.photo {
+  background: url(../img/portfolio-camera-icon.png) no-repeat 0 0;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb > div.portfolio-icon.movie {
+  background: url(../img/portfolio-movie-icon.png) no-repeat 0 0;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb > div.portfolio-icon.text {
+  background: url(../img/portfolio-text-icon.png) no-repeat 0 0;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.post-thumb > div.portfolio-icon.music {
+  background: url(../img/portfolio-music-icon.png) no-repeat 0 0;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header {
+  overflow: hidden;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > h2.post-title {
+  font-size: 1.5em;
+  font-family: "a_CityNova";
+  margin: 5px 0 0;
+  padding: 0;
+  color: #383838;
+  text-transform: uppercase;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > div.meta > span {
+  font-size: 0.6875em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > div.meta > span.meta-author, #main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > div.meta > span.meta-category {
+  color: #3b3b3b;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > div.meta > span.author-name, #main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > div.meta > span.meta-category-name {
+  color: #d06949;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > div.meta > span.meta-comments-count, #main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > header.post-header > div.meta > span.meta-comments {
+  color: #d06949;
+  float: right;
+  margin-left: 5px;
+  position: relative;
+  top: 3px;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.meta-down-divider {
+  height: 8px;
+  background: url(../img/meta-text-down-divider.png) repeat-x 0 0;
+  overflow: hidden;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.blog-post {
+  overflow: hidden;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.blog-post > div.post-date {
+  font-size: 1.125em;
+  font-family: "a_CityNova";
+  background: #323232;
+  color: lightgrey;
+  float: left;
+  margin: 4px 4px 0 0;
+  text-align: center;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.blog-post > div.post-date > span {
+  text-transform: uppercase;
+  display: block;
+  margin: 0 auto;
+  padding: 3px 5px;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.blog-post > div.post-text {
+  margin: 4px 0 0;
+  padding: 0;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.blog-post > div.post-text > p {
+  font-size: 0.875em;
+  font-family: "Helvetica";
+  color: #383838;
+  margin: 0 0 10px 0;
+  text-align: justify;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.blog-post > a.read-it-later {
+  font-size: 0.875em;
+  color: #d06949;
+  text-decoration: none;
+}
+#main > article#index-page > div.inner > section.posts > ul.posts-list > li.post-item > div.blog-post > a.read-it-later:hover {
+  text-decoration: underline;
+}
+#main > article#index-page > div.inner > aside.sidebar {
+  width: 275px;
+  margin: 55px 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item {
+  display: block;
+  margin-bottom: 25px;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > header.sidebar-item-header {
+  margin: 0;
+  padding: 0;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > header.sidebar-item-header > span {
+  display: block;
+  text-transform: uppercase;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > header.sidebar-item-header > span.sidebar-item-title {
+  font-size: 1.5em;
+  font-family: "a_CityNova";
+  color: #383838;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > header.sidebar-item-header > span.sidebar-item-desc {
+  font-size: 0.6875em;
+  font-family: "Helvetica";
+  color: #383838;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-divider {
+  height: 8px;
+  background: url(../img/meta-text-down-divider.png) repeat-x 0 0;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content {
+  margin: 5px 0 0;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content:after {
+  display: block;
+  clear: both;
+  content: "";
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.search > form.search-form {
+  display: block;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.search > form.search-form > input#input-search {
+  font-size: 0.625em;
+  width: 216px;
+  height: 19px;
+  border: none;
+  background: white;
+  color: #bebebe;
+  padding: 5px 10px 6px 6px;
+  outline: none;
+  border-radius: 0;
+  float: left;
+  display: inline-block;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.search > form.search-form > input#input-search:focus {
+  color: #2f2f2f;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.search > form.search-form > button#search-submit {
+  font-size: 1.5em;
+  font-family: "a_CityNova";
+  text-transform: uppercase;
+  color: #d1d1d1;
+  position: relative;
+  margin-left: -5px;
+  border: 0;
+  width: 48px;
+  height: 30px;
+  padding: 0;
+  text-indent: 5px;
+  background: url(../img/search-button-bg.png) no-repeat 0 0;
+  float: left;
+  display: inline-block;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.search > form.search-form > button#search-submit:hover {
+  color: #ababab;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.categories > ul.sidebar-category-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.categories > ul.sidebar-category-list > li.sidebar-category-item {
+  float: left;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  height: 20px;
+  background: url(../img/sidebar-categories-bg.png) no-repeat 0 0, url(../img/filters-bg-pattern.png) repeat-x 0 0;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.categories > ul.sidebar-category-list > li.sidebar-category-item > a {
+  font-size: 0.75em;
+  font-family: "Helvetica";
+  color: #d2d2d2;
+  font-style: italic;
+  display: block;
+  width: 100%;
+  padding: 2px 20px 0 0;
+  text-indent: 25px;
+  text-decoration: none;
+  -webkit-transition: color ease 1s;
+  -moz-transition: color ease 1s;
+  -ms-transition: color ease 1s;
+  -o-transition: color ease 1s;
+  transition: color ease 1s;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.categories > ul.sidebar-category-list > li.sidebar-category-item > a:hover {
+  color: #d06949;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.comments > ul.sidebar-comments-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.comments > ul.sidebar-comments-list > li.sidebar-comments-item {
+  font-size: 0.6875em;
+  display: block;
+  font-family: "Helvetica";
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #3b3b3b;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.comments > ul.sidebar-comments-list > li.sidebar-comments-item > a.blog-post-title {
+  color: #d06949;
+  text-decoration: none;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.twitter > ul.sidebar-tweets-list {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.twitter > ul.sidebar-tweets-list > li {
+  display: block;
+  margin: 0 0 10px;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.twitter > ul.sidebar-tweets-list > li > img.twitter-ava {
+  width: 24px;
+  float: left;
+  margin: 0 4px 0 0;
+}
+#main > article#index-page > div.inner > aside.sidebar > ul.sidebar-list > li.sidebar-item > div.sidebar-item-content.twitter > ul.sidebar-tweets-list > li > span.tweet-text {
+  display: block;
+  font-size: 0.75em;
+  font-family: "Helvetica";
+  color: #3b3b3b;
+  overflow: hidden;
+}
